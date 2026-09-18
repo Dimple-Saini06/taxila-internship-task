@@ -40,7 +40,7 @@ export default function Navbar(){
                 
 
                 {/* mid-section */}
-                <div className="hidden xl:flex items-center gap-5">
+                <div className="hidden xl:flex items-center gap-5 cursor-pointer">
                     <div className="flex items-center gap-1 group relative cursor-pointer">
                         <i className="fa-solid fa-house text-amber-700 text-xs"></i>
                         <span className="text-sm font-bold text-gray-600 hover:text-amber-700">Home</span>
@@ -70,7 +70,7 @@ export default function Navbar(){
                 </div>
 
 
-                <div className="hidden sm:flex gap-2">
+                <div className="hidden sm:flex gap-2 cursor-pointer">
                     {/* BALANCE SECTION */}
                     <div className="border border-amber-600 rounded-2xl px-3 py-1.5 flex items-center gap-2 bg-linear-to-r from-amber-50 via-amber-100 to-amber-50
     hover:from-amber-100 hover:to-amber-200">

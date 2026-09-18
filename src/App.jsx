@@ -1,13 +1,13 @@
 import Navbar from "./components/Navbar"
+import AnnouncementBar from "./components/AnnouncementBar"
 
 function App() {
   return (
-    // <h1 className="text-4xl font-bold text-center mt-10">
-    //   Taxila Internship Task
-    // </h1>
-
-
-    <Navbar />
+    <div>
+      <Navbar />
+      <AnnouncementBar />
+    </div>
+    
   )
 }
 
