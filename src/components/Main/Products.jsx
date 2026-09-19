@@ -7,7 +7,7 @@ export default function Products(){
     const [error, setError] = useState(null);
 
     useEffect(()=>{
-        fetch("http://localhost:8080/api/products")
+        fetch("https://taxila-backend.onrender.com/api/products")
         .then((res)=>{
             if (!res.ok) {
                 throw new Error("Failed to fetch products");
