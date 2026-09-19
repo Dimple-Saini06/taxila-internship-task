@@ -1,6 +1,6 @@
 export default function Navbar(){
     return(
-        <nav className="w-full h-16 md:h-20 bg-white/95 border-b border-amber-300/80 shadow-sm transition-all duration-200 flex items-center">
+        <nav className="sticky top-0 z-50 w-full h-16 md:h-20 bg-white border-b border-amber-300/80 shadow-sm transition-all duration-200 flex items-center">
             <div className="w-full px-4 sm:px-6 lg:px-10 xl:px-25 flex items-center justify-between">
                 <div className="flex items-center gap-3 cursor-pointer">
                     {/* logo */}
